@@ -22,7 +22,7 @@ JPN:S21 Gainがピークになる周波数(▼2)
 
 <img src="CH0-DUT-CH1_ZTB455E_1_S21_S11Z.png" width="600">
 
-|DUT No(JPN:テスト対象物)|Frequency| S21 Gain(dB) | 
+|DUT(JPN:テスト対象物)|Frequency| S21 Gain(dB) | 
 ----|----|----
 |1 |439.960kHz| -1.651|
 |2 |437.700kHz| -0.787|
@@ -35,7 +35,7 @@ JPN:S11|Z| が最低になる周波数(▼2)
 <img src="CH0-DUT-GND_ZTB455E_1_S11Z.png" width="400">
 
 
-|No|Frequency|
+|DUT(JPN:テスト対象物)|Frequency|
 ----|----
 |1 |440.140kHz| 
 |2 |437.740kHz| 
