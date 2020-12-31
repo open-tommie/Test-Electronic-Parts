@@ -20,8 +20,6 @@ JPN: AliExpressで購入した3つのZTB455EをNanoVNA VAA2 で計測した。
 
 #### Schematic (JPN: 回路図)
 
-JPN:計測した回路図
-
 <img src="CH0-DUT-CH1.png" width="400">
 
 #### 結果
@@ -42,7 +40,6 @@ JPN:S21 Gainがピークになる周波数(▼2)
 
 #### Schematic (JPN: 回路図)
 
-JPN:計測した回路図
 <img src="CH0-DUT-GND.png" width="400">
 
 #### 結果
@@ -76,4 +73,3 @@ JPN:S11|Z| が最低になる周波数(▼2)
 <img src="CH0-DUT-GND_ZTB455E_3.png" width="200">
 
 
-## etc
