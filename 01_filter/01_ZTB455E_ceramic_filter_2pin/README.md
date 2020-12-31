@@ -30,7 +30,10 @@ JPN:S21 Gainがピークになる周波数(▼2)
 
 ### CH0-DUT-GND
 
-JPN:S11|Z| が最低になる周波数
+JPN:S11|Z| が最低になる周波数(▼2)
+
+<img src="CH0-DUT-GND_ZTB455E_1_S11Z.png" width="400">
+
 
 |No|Frequency|
 ----|----
