@@ -2,19 +2,27 @@
 
 ## Sammary (JPN: 概要)
 
-JPN: NanoVNA VAA2 で計測した。
+JPN: 3つのZTB455EをNanoVNA VAA2 で計測した。
 
-|No|Frequency| Schematic| Description|
-----|----|----|----
-|1 |439.960kHz| CH0-DUT-CH1| S21 Gain(dB) peak|
-|2 |439.960kHz| CH0-DUT-CH1| S21 Gain(dB) peak|
-|3 |439.960kHz| CH0-DUT-CH1| S21 Gain(dB) peak|
+### CH0-DUT-CH1 (JPN: 透過特性)
 
-|No|Frequency| Schematic| Description|
-----|----|----|----
-|1 |440.140kHz| CH0-DUT-GND| S11|Z| bottom|
-|2 |439.960kHz| CH0-DUT-GND| S21 Gain(dB) peak|
-|3 |439.960kHz| CH0-DUT-GND| S21 Gain(dB) peak|
+JPN:S21 Gainがピークになる周波数
+
+|DUT No(JPN:テスト対象物)|Frequency| S21 Gain(dB) | 
+----|----|----
+|1 |439.960kHz| -1.651|
+|2 |437.700kHz| -0.787|
+|3 |434.480kHz| -0.605|
+
+### CH0-DUT-GND
+
+JPN:S11|Z| が最低になる周波数
+
+|No|Frequency|
+----|----
+|1 |440.140kHz| 
+|2 |437.740kHz| 
+|3 |434.460kHz| 
 
 
 |Test Item| Description|
