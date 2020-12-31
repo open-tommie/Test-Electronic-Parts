@@ -2,21 +2,24 @@
 
 ## Sammary (JPN: 概要)
 
-JPN: 3つのZTB455EをNanoVNA VAA2 で計測した。
+JPN: AliExpressで購入した3つのZTB455EをNanoVNA VAA2 で計測した。
 
 <img src="ZTB455E_2.jpg" width="200">
+
+### 注意
+
+・インピーダンス不整合で計測しているので、結果は参考程度の値です。
+
+|部品|インピーダンス|
+----|----
+|ZTB455E |3kΩ(同様のMurata社セラミックフィルターから推定）| 
+|NanoVNA |50Ω|
 
 
 ### CH0-DUT-CH1 (JPN: 透過特性)
 
 JPN:S21 Gainがピークになる周波数
 
-・インピーダンス整合が取れていないので参考の値であることに注意。
-
-
-　・ZTB455Eは3kΩ(推定）
- 
-　・NanoVNAは50Ω
 
 |DUT No(JPN:テスト対象物)|Frequency| S21 Gain(dB) | 
 ----|----|----
