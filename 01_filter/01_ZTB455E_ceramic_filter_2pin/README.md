@@ -4,13 +4,17 @@
 
 JPN: NanoVNA VAA2 で計測した。
 
-|No|Frequency| Description|
-----|----|----
-|① |450kHz| RF-LO|
-|② |550kHz| LO|
-|③ |650kHz| ?|
-|- |1000kHz| RF|
-|④ |1550kHz| RF+LO|
+|No|Frequency| Schematic| Description|
+----|----|----|----
+|1 |439.960kHz| CH0-DUT-CH1| S21 Gain(dB) peak|
+|2 |439.960kHz| CH0-DUT-CH1| S21 Gain(dB) peak|
+|3 |439.960kHz| CH0-DUT-CH1| S21 Gain(dB) peak|
+
+|No|Frequency| Schematic| Description|
+----|----|----|----
+|1 |440.140kHz| CH0-DUT-GND| S11|Z| bottom|
+|2 |439.960kHz| CH0-DUT-GND| S21 Gain(dB) peak|
+|3 |439.960kHz| CH0-DUT-GND| S21 Gain(dB) peak|
 
 
 |Test Item| Description|
@@ -24,6 +28,8 @@ JPN: NanoVNA VAA2 で計測した。
 ## Result FFT (JPN: 結果のFFT出力)
 
 <img src="ZTB455E_1.jpg" width="200">
+<img src="ZTB455E_2.jpg" width="200">
+<img src="ZTB455E_3.jpg" width="200">
 
 
 ## etc
