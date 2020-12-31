@@ -2,14 +2,7 @@
 
 ## Sammary (JPN: 概要)
 
-JPN: NanoVNA VAA2 で計測する。
-
-## Schematic (JPN: 回路図)
-
-![schematic](ScreenShot01_Schematic.png)
-
-## Result FFT (JPN: 結果のFFT出力)
-
+JPN: NanoVNA VAA2 で計測した。
 
 |No|Frequency| Description|
 ----|----|----
@@ -20,7 +13,17 @@ JPN: NanoVNA VAA2 で計測する。
 |④ |1550kHz| RF+LO|
 
 
-![ZTB455Ex3](IMG_5218.jpg)
+|Test Item| Description|
+----|----
+|NanoVNA| NanoVNA SAA2|
 
 
-![schematic](2020-12-30 13.28.33-1.jpg)
+## Schematic (JPN: 回路図)
+
+
+## Result FFT (JPN: 結果のFFT出力)
+
+<img src="ZTB455E_1.jpg" width="200">
+
+
+## etc
