@@ -8,7 +8,7 @@ JPN: AliExpressで購入したセラミックフィルターをNanoVNA VAA2 で�
 
 |DUT (JPN:テスト部品)|Description|リンク|
 ----|----|----
-|ZTB455E |445kHz ceramic filter|[AliExpressの商品ページ](https://bit.ly/3pC7Pw4) (CRB445E になっている)|
+|ZTB455E |445kHz ceramic filter|[AliExpressの商品ページ](https://bit.ly/3pC7Pw4) (このページでは表記がCRB445E になっている)|
 
 
 ### 注意
@@ -20,6 +20,7 @@ JPN: AliExpressで購入したセラミックフィルターをNanoVNA VAA2 で�
 |ZTB455E |3kΩ(同様のMurata社セラミックフィルターから推定）| 
 |NanoVNA |50Ω|
 
+---
 
 ### CH0-DUT-CH1 (JPN: 透過特性)
 
@@ -41,6 +42,12 @@ JPN:S21 Gainがピークになる周波数(▼2)
 |2 |437.700kHz| -0.787|
 |3 |434.480kHz| -0.605|
 
+##### 注意
+
+S21 Gain = DUTの減衰値 __ではない__ ことに注意。
+
+---
+
 ### CH0-DUT-GND
 
 #### Schematic (JPN: 回路図)
@@ -55,11 +62,17 @@ JPN:S11|Z|グラフ、S11 LogMag
 
 JPN:S11|Z| が最低になる周波数(▼2)
 
-|DUT(JPN:テスト対象物)|Frequency|
-----|----
-|1 |440.140kHz| 
-|2 |437.740kHz| 
-|3 |434.460kHz| 
+|DUT(JPN:テスト対象物)|Frequency|S11｜Z｜ (Ω)|
+----|----|----
+|1 |440.140kHz| 22.638|
+|2 |437.740kHz| 14.605|
+|3 |434.460kHz| 9.0665|
+
+##### 注意
+
+S11|Z| = DUTの抵抗値 __ではない__ ことに注意。
+
+---
 
 |Test Item| Description|
 ----|----
