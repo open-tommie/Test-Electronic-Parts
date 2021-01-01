@@ -6,10 +6,11 @@ JPN: AliExpressで購入したセラミックフィルターをNanoVNA VAA2 で�
 
 <img src="ZTB455E_2.jpg" width="200">
 
-|DUT (JPN:テスト部品)|Description|リンク|
+|DUT |Description|リンク|
 ----|----|----
 |ZTB455E |445kHz ceramic filter|[AliExpressの商品ページ](https://bit.ly/3pC7Pw4) (このページでは表記がCRB445E になっている)|
 
+DUT: Device Under Test (JPN:DUTはテスト対象物)
 
 ### 注意
 
@@ -41,8 +42,6 @@ JPN:S21 Gainがピークになる周波数(▼2)
 |1 |439.960kHz| -1.651| <img src="CH0-DUT-CH1_ZTB455E_1.png" width="60"> |
 |2 |437.700kHz| -0.787| <img src="CH0-DUT-CH1_ZTB455E_2.png" width="60"> |
 |3 |434.480kHz| -0.605| <img src="CH0-DUT-CH1_ZTB455E_3.png" width="60"> |
-
-DUT: Device Under Test (JPN:DUTはテスト対象物)
 
 <!--
 ##### 注意
@@ -82,20 +81,17 @@ S11|Z| = DUTの抵抗値 __ではない__ ことに注意。
 
 ---
 
-|Test Item| Description|
-----|----
-|NanoVNA| NanoVNA SAA2|
+## Etc
+
+|Item | Description| Link|
+----|----|----
+|NanoVNA| NanoVNA V2_2 (SAA2) Version git-20201122| https://nanorfe.com/nanovna-v2.html |
+|PC Application| NanoVNASaver 0.3.8 | https://github.com/NanoVNA-Saver/nanovna-saver |
 
 
 
 
-## Screen Shot
 
-<img src="CH0-DUT-CH1_ZTB455E_1.png" width="200">
-<img src="CH0-DUT-CH1_ZTB455E_2.png" width="200">
-<img src="CH0-DUT-CH1_ZTB455E_3.png" width="200">
-<img src="CH0-DUT-GND_ZTB455E_1.png" width="200">
-<img src="CH0-DUT-GND_ZTB455E_2.png" width="200">
-<img src="CH0-DUT-GND_ZTB455E_3.png" width="200">
+
 
 
