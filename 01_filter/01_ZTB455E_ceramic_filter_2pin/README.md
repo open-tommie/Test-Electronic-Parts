@@ -85,7 +85,7 @@ S11|Z| = DUTの抵抗値 __ではない__ ことに注意。
 
 |Item | Description| Link|
 ----|----|----
-|NanoVNA| NanoVNA V2_2 (SAA2) Version git-20201122| https://nanorfe.com/nanovna-v2.html |
+|NanoVNA| NanoVNA V2_2 (SAA2) <!-- Version git-20201122 --> | https://nanorfe.com/nanovna-v2.html |
 |PC Application| NanoVNASaver 0.3.8 | https://github.com/NanoVNA-Saver/nanovna-saver |
 
 
