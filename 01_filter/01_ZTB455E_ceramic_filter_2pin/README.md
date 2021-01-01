@@ -10,7 +10,7 @@ JPN: AliExpressで購入したセラミックフィルターをNanoVNA VAA2 で�
 ----|----|----
 |ZTB455E |445kHz ceramic filter|[AliExpressの商品ページ](https://bit.ly/3pC7Pw4) (このページでは表記がCRB445E になっている)|
 
-DUT: Device Under Test (JPN:DUTはテスト対象物)
+DUT: Device Under Test (JPN:テスト対象物)
 
 ### 注意
 
@@ -65,7 +65,7 @@ JPN:S11|Z|グラフ、S11 LogMag
 
 JPN:S11|Z| が最低になる周波数(▼2)
 
-|DUT(JPN:テスト対象物)|Frequency|S11｜Z｜ (Ω)| Screen Shot|
+|DUT |Frequency|S11｜Z｜ (Ω)| Screen Shot|
 ----|----|----|----
 |1 |440.140kHz| 22.638| <img src="CH0-DUT-GND_ZTB455E_1.png" width="60"> |
 |2 |437.740kHz| 14.605| <img src="CH0-DUT-GND_ZTB455E_2.png" width="60"> |
