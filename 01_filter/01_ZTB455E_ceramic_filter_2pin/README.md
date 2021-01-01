@@ -18,9 +18,17 @@ JPN: AliExpressで購入した3つのZTB455EをNanoVNA VAA2 で計測した。
 
 ### CH0-DUT-CH1 (JPN: 透過特性)
 
-JPN:S21 Gainがピークになる周波数(▼2)
+#### Schematic (JPN: 回路図)
+
+<img src="CH0-DUT-CH1.png" width="400">
+
+#### 結果
+
+JPN:S21 Gainグラフ、S11|Z|グラフ
 
 <img src="CH0-DUT-CH1_ZTB455E_1_S21_S11Z.png" width="600">
+
+JPN:S21 Gainがピークになる周波数(▼2)
 
 |DUT(JPN:テスト対象物)|Frequency| S21 Gain(dB) | 
 ----|----|----
@@ -30,10 +38,17 @@ JPN:S21 Gainがピークになる周波数(▼2)
 
 ### CH0-DUT-GND
 
-JPN:S11|Z| が最低になる周波数(▼2)
+#### Schematic (JPN: 回路図)
+
+<img src="CH0-DUT-GND.png" width="400">
+
+#### 結果
+
+JPN:S11|Z|グラフ、S11 LogMag
 
 <img src="CH0-DUT-GND_ZTB455E_1_S11Z.png" width="400">
 
+JPN:S11|Z| が最低になる周波数(▼2)
 
 |DUT(JPN:テスト対象物)|Frequency|
 ----|----
@@ -46,9 +61,7 @@ JPN:S11|Z| が最低になる周波数(▼2)
 |NanoVNA| NanoVNA SAA2|
 
 
-## Schematic (JPN: 回路図)
 
-TBD
 
 ## Screen Shot
 
@@ -60,4 +73,3 @@ TBD
 <img src="CH0-DUT-GND_ZTB455E_3.png" width="200">
 
 
-## etc
