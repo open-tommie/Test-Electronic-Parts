@@ -2,9 +2,14 @@
 
 ## Sammary (JPN: 概要)
 
-JPN: AliExpressで購入した3つのZTB455EをNanoVNA VAA2 で計測した。
+JPN: AliExpressで購入したセラミックフィルターをNanoVNA VAA2 で計測した。
 
 <img src="ZTB455E_2.jpg" width="200">
+
+|DUT (JPN:テスト部品)|Description|リンク|
+----|----|----
+|ZTB455E |445kHz ceramic filter|[AliExpressの商品ページ](https://bit.ly/3pC7Pw4) (CRB445E になっている)|
+
 
 ### 注意
 
