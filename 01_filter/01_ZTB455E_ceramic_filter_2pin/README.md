@@ -26,7 +26,7 @@ JPN: AliExpressで購入したセラミックフィルターをNanoVNA VAA2 で�
 
 #### Schematic (JPN: 回路図)
 
-<img src="CH0-DUT-CH1.png" width="400">
+<img src="CH0-DUT-CH1.png" width="300">
 
 #### 結果
 
@@ -36,15 +36,19 @@ JPN:S21 Gainグラフ、S11|Z|グラフ
 
 JPN:S21 Gainがピークになる周波数(▼2)
 
-|DUT(JPN:テスト対象物)|Frequency| S21 Gain(dB) | 
-----|----|----
-|1 |439.960kHz| -1.651|
-|2 |437.700kHz| -0.787|
-|3 |434.480kHz| -0.605|
+|DUT |Frequency| S21 Gain(dB) | Screen Shot|
+----|----|----|----
+|1 |439.960kHz| -1.651| <img src="CH0-DUT-CH1_ZTB455E_1.png" width="60"> |
+|2 |437.700kHz| -0.787| <img src="CH0-DUT-CH1_ZTB455E_2.png" width="60"> |
+|3 |434.480kHz| -0.605| <img src="CH0-DUT-CH1_ZTB455E_3.png" width="60"> |
 
+DUT: Device Under Test (JPN:DUTはテスト対象物)
+
+<!--
 ##### 注意
 
 S21 Gain = DUTの減衰値 __ではない__ ことに注意。
+-->
 
 ---
 
@@ -52,7 +56,7 @@ S21 Gain = DUTの減衰値 __ではない__ ことに注意。
 
 #### Schematic (JPN: 回路図)
 
-<img src="CH0-DUT-GND.png" width="400">
+<img src="CH0-DUT-GND.png" width="300">
 
 #### 結果
 
@@ -62,15 +66,19 @@ JPN:S11|Z|グラフ、S11 LogMag
 
 JPN:S11|Z| が最低になる周波数(▼2)
 
-|DUT(JPN:テスト対象物)|Frequency|S11｜Z｜ (Ω)|
-----|----|----
-|1 |440.140kHz| 22.638|
-|2 |437.740kHz| 14.605|
-|3 |434.460kHz| 9.0665|
+|DUT(JPN:テスト対象物)|Frequency|S11｜Z｜ (Ω)| Screen Shot|
+----|----|----|----
+|1 |440.140kHz| 22.638| <img src="CH0-DUT-GND_ZTB455E_1.png" width="60"> |
+|2 |437.740kHz| 14.605| <img src="CH0-DUT-GND_ZTB455E_2.png" width="60"> |
+|3 |434.460kHz| 9.0665| <img src="CH0-DUT-GND_ZTB455E_3.png" width="60"> |
+
+<!--
 
 ##### 注意
 
 S11|Z| = DUTの抵抗値 __ではない__ ことに注意。
+
+-->
 
 ---
 
